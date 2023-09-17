@@ -1,0 +1,130 @@
+ @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+
+ * {
+     padding: 0;
+     margin: 0;
+
+ }
+
+ main {
+     min-height: 90vh;
+ }
+
+ ul {
+     font-family: 'Mochiy Pop One', sans-serif;
+     color: white;
+
+
+ }
+
+ nav {
+     align-items: center;
+     justify-content: space-between;
+     display: flex;
+     background-color: black;
+     padding-top: 10px;
+     padding-bottom: 10px;
+
+ }
+
+ ul {
+     display: flex;
+
+
+ }
+
+ ul li {
+     list-style: none;
+     padding: 0 20px;
+
+
+ }
+
+ .logo {
+     color: white;
+     margin-left: 20px;
+     font-size: x-large;
+ }
+
+ ul li a {
+     color: white;
+     text-decoration: none;
+ }
+
+ ul>li>a:hover {
+     color: rgb(153, 100, 223);
+ }
+
+ footer {
+     background-color: black;
+     color: whitesmoke;
+     display: flex;
+     padding: 10px;
+     align-items: center;
+     justify-content: center;
+ }
+
+ button {
+     background-color: #4CAF50;
+     width: 100%;
+     color: white;
+     padding: 10px;
+     margin: 10px 0px;
+     border: none;
+     cursor: pointer;
+ }
+
+ form {
+     border: 3px solid #f1f1f1;
+ }
+
+ input[type=text],
+ input[type=password] {
+     width: 100%;
+     margin: 8px 0;
+     padding: 12px 20px;
+     display: inline-block;
+     border: 2px solid green;
+     box-sizing: border-box;
+
+ }
+
+ button:hover {
+     opacity: 0.7;
+ }
+
+ .cancelbtn {
+     width: auto;
+     padding: 10px 18px;
+     margin: 10px 5px;
+
+ }
+
+ .answer {
+     padding: 10px;
+ }
+
+ .resultss {
+     padding: 12px;
+     font-size: xx-large;
+ }
+
+
+ .container {
+     padding: 50px;
+     background-color: lightblue;
+ }
+
+ #resultcont div::first-letter {
+     text-transform: uppercase;
+ }
+
+ @media only screen and (max-width: 600px) {
+     nav {
+         flex-direction: column;
+     }
+
+     .logo {
+         padding: 10px 0px;
+     }
+ }
